@@ -227,7 +227,7 @@ nav {
   }
 }
 
-@media screen and (max-width: 395px) {
+@media screen and (max-width: 390px) {
   .introduction {
     text-align: center;
   }
@@ -260,7 +260,7 @@ nav {
   
   .big-circle {
     z-index: 1;
-    right: 22px;
+    right: 3px;
     height: 40%;
   }
 }
