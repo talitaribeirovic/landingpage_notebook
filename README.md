@@ -21,7 +21,7 @@
 ![badge](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 
 
-<h2> 💻 Terminal</h2>:
+<h2> 💻 Terminal:</h2>
 
 ![badge](https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white)
 
