@@ -4,6 +4,7 @@
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
+  border: 1px solid red;
 }
 
 body {
@@ -205,6 +206,9 @@ nav {
 }
 
 @media screen and (max-width: 450px) {
+  .presentation {
+    margin: 0 auto;
+  }
   .nav-links {
     display: none;
   }
@@ -214,17 +218,17 @@ nav {
     padding: 20px;
   }
 
-  .big-circle {
-    z-index: 1;
-    right:10px;
+  .small-circle {
+    display: none;
   }
 
   .cover img {
     height: 40vh;
+    align-items: center;
   }
 }
 
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 395px) {
   .introduction {
     text-align: center;
   }
@@ -234,11 +238,32 @@ nav {
   }
 
   .cover img {
-    height: 40vh;
+   height: 30vh;
+  }
+
+  .cta {
+    margin: auto;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+
+  .cta-select {
+    margin-bottom: 20px;
+  }
+
+.cta-add {
+  margin: 0;
+}
+  
   }
 
   .big-circle {
     z-index: 1;
-    right:05px;
+    right: 22px;
+    height: 40%;
   }
 }
