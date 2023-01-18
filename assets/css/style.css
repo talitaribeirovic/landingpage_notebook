@@ -206,16 +206,17 @@ nav {
 
 @media screen and (max-width: 450px) {
   .nav-links {
-    display: flex;
-    flex-wrap: wrap;
-    
-    align-items: flex-start;
+    display: none;
   }
-
 
   .intro-text p {
     font-size: 14px;
     padding: 20px;
+  }
+
+  .big-circle {
+    z-index: 1;
+    right:10px;
   }
 
   .cover img {
@@ -234,5 +235,10 @@ nav {
 
   .cover img {
     height: 40vh;
+  }
+
+  .big-circle {
+    z-index: 1;
+    right:05px;
   }
 }
