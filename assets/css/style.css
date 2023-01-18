@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600&display=swap');
+
+
+
 * {
   margin: 0px;
   padding: 0px;
@@ -5,10 +9,10 @@
 }
 
 body {
-  font-family: "Poppins", sans-serif;
+	font-family: 'Inter', sans-serif;
 }
 button {
-  font-family: "Poppins", sans-serif;
+	font-family: 'Inter', sans-serif;
 }
 
 header {
@@ -75,16 +79,16 @@ nav {
   padding: 50px 0px 0px 0px;
 }
 .cta-select {
-  border: 2px solid #c36cbb;
+  border: 2px solid #494964;
   background: transparent;
-  color: #c36cbb;
+  color: #494964;
   width: 150px;
   height: 50px;
   cursor: pointer;
   font-size: 16px;
 }
 .cta-add {
-  background: #c36cbb;
+	background: linear-gradient(to right, #494964, #6f6f89);
   width: 150px;
   height: 50px;
   cursor: pointer;
@@ -114,14 +118,7 @@ nav {
   opacity: 0.5;
   height: 80%;
 }
-.medium-circle {
-  position: absolute;
-  top: 30%;
-  right: 30%;
-  z-index: -1;
-  height: 60%;
-  opacity: 0.4;
-}
+
 .small-circle {
   position: absolute;
   bottom: 0%;
@@ -192,7 +189,6 @@ nav {
     height: 80vh;
   }
   .small-circle,
-  .medium-circle,
   .big-circle {
     opacity: 0.2;
   }
@@ -206,19 +202,46 @@ nav {
 
 
 @media screen and (max-width: 600px) {
-  .cover img {
-    height: 60vh;
-  }
 	.mid-circle {
 		display: none;
 	}
 }
 
 @media screen and (max-width: 450px) {
+
+header {
+	margin-bottom: 10px;
+}
+
+.intro-text p {
+	font-size: 14px;
+	padding: 20px;
+}
+
+	.nav-links {
+	display: none;
+	}
+
+  .cover img {
+	height: 40vh;
+  }
+
+}
+
+@media screen and (max-width: 350px) {
+
+	.intro-text h1 {
+		font-size: 20px;
+	}
+
+
+
+	.nav-links {
+		flex-wrap: wrap;
+		padding: auto;
+		margin-bottom: 0px 20px;
+	}
   .cover img {
     height: 40vh;
-  }
-	.cta {
-    padding: 10px 0px 0px 0px;
   }
 }
